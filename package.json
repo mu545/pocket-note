@@ -1,0 +1,27 @@
+{
+  "name": "pocket-note",
+  "version": "0.0.1",
+  "description": "The web app will help people to reminder something they need",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mu545/pocket-note.git"
+  },
+  "keywords": [
+    "pwa",
+    "spa",
+    "web",
+    "app",
+    "pocket",
+    "note"
+  ],
+  "author": "Musa Sutisna <mus4.sutisn4@gmail.com> (https://github.com/mu545)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mu545/pocket-note/issues"
+  },
+  "homepage": "https://github.com/mu545/pocket-note#readme"
+}
