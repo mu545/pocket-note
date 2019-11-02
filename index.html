@@ -45,5 +45,21 @@
 
   <script type="text/javascript" src="js/materialize.min.js?v=1.0.0"></script>
   <script type="text/javascript" src="js/index.js?v=0.0.1"></script>
+  <script>
+    // Register service worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then(function () {
+            console.log('Service worker registered')
+          })
+          .catch(function () {
+            console.log('Service worker could not be registered')
+          })
+      })
+    } else {
+      console.log('Browser is not support service worker')
+    }
+  </script>
 </body>
 </html>
